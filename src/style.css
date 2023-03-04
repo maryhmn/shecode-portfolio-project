@@ -15,18 +15,44 @@ h2 {
 p {
   font-size: 18px;
 }
-
-.hero {
-  background-color: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
   line-height: 80px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+  transition: all 150ms ease-in-out;
+}
+nav a:hover {
+  color: var(--branding-color);
+}
+nav li.active a {
+  color: black;
+}
+.logo {
+  max-height: 42px;
+}
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
 .hero h2 {
   font-size: 24px;
   color: #272142;
@@ -116,5 +142,8 @@ h1 {
   .content {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
