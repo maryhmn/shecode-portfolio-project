@@ -37,13 +37,15 @@ h1 {
   font-size: 36px;
   color: #272142;
 }
-.about {
+.about,
+.work {
   padding: 160px 20px;
 }
 .about-description {
   margin: 30px;
 }
-.about h1 {
+.about,
+.work h1 {
   font-size: 64px;
 }
 .about h2 {
@@ -55,6 +57,23 @@ h1 {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.7);
   line-height: 30px;
+}
+.work h3 {
+  font-size: 24;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+.work p {
+  font-size: 14px;
+  color: rgba(39, 33, 66, 0.7);
+  text-align: center;
+}
+.work img {
+  border-radius: 20px;
+}
+.work-description {
+  margin: 15px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -88,7 +107,8 @@ h1 {
   h2 {
     font-size: 42px;
   }
-  .hero {
+  .hero,
+  .work {
     padding: 80px 20px;
   }
   .project-description {
