@@ -26,6 +26,7 @@ nav {
 }
 nav ul {
   padding: 0;
+  margin: 0;
 }
 nav li {
   display: inline;
@@ -124,6 +125,46 @@ nav li.active a {
   color: rgba(39, 33, 66, 0.7);
   line-height: 30px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 25px 30px 25px 75px;
+  border-radius: 20px;
+}
+footer h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+footer p {
+  font-size: 18px;
+  color: rgba(39, 33, 66, 0.7);
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin: 30px 0;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  color: var(--branding-color);
+  margin: 0 20px;
+  font-size: 18px;
+  padding: 10px 14px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  transition: all 120ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -142,6 +183,9 @@ nav li.active a {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .contact-box {
+    text-align: center;
   }
   nav a {
     font-size: 14px;
