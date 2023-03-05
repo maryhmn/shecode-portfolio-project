@@ -51,7 +51,7 @@ nav li.active a {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 110px 20px;
 }
 
 .hero h2 {
@@ -65,7 +65,7 @@ nav li.active a {
   color: #272142;
 }
 .content {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-description {
   margin: 30px;
@@ -172,8 +172,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 42px;
   }
-  .hero,
-  .work {
+  .hero {
     padding: 80px 20px;
   }
   .project-description {
